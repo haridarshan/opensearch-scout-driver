@@ -32,12 +32,12 @@
     },
     "require": {
         "php": "^7.4 || ^8.0",
-        "haridarshan/opensearch-adapter": "@dev"
+        "haridarshan/opensearch-adapter": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
         "orchestra/testbench": "^7.5",
-        "haridarshan/opensearch-migrations": "@dev",
+        "haridarshan/opensearch-migrations": "dev-master",
         "laravel/scout": "^10.0",
         "friendsofphp/php-cs-fixer": "^3.14",
         "phpstan/phpstan": "^1.10",
