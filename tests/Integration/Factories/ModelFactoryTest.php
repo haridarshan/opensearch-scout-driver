@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 
-namespace Elastic\ScoutDriver\Tests\Integration\Factories;
+namespace OpenSearch\ScoutDriver\Tests\Integration\Factories;
 
-use Elastic\Adapter\Search\SearchResult;
-use Elastic\ScoutDriver\Factories\ModelFactory;
-use Elastic\ScoutDriver\Tests\App\Client;
-use Elastic\ScoutDriver\Tests\Integration\TestCase;
+use OpenSearch\Adapter\Search\SearchResult;
+use OpenSearch\ScoutDriver\Factories\ModelFactory;
+use OpenSearch\ScoutDriver\Tests\App\Client;
+use OpenSearch\ScoutDriver\Tests\Integration\TestCase;
 use Laravel\Scout\Builder;
 use Laravel\Scout\Searchable;
 
 /**
- * @covers \Elastic\ScoutDriver\Factories\ModelFactory
+ * @covers \OpenSearch\ScoutDriver\Factories\ModelFactory
  *
- * @uses   \Elastic\ScoutDriver\Engine
- * @uses   \Elastic\ScoutDriver\Factories\DocumentFactory
+ * @uses   \OpenSearch\ScoutDriver\Engine
+ * @uses   \OpenSearch\ScoutDriver\Factories\DocumentFactory
  */
 final class ModelFactoryTest extends TestCase
 {

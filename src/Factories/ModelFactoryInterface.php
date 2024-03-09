@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Elastic\ScoutDriver\Factories;
+namespace OpenSearch\ScoutDriver\Factories;
 
-use Elastic\Adapter\Search\SearchResult;
+use OpenSearch\Adapter\Search\SearchResult;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\LazyCollection;
 use Laravel\Scout\Builder;
